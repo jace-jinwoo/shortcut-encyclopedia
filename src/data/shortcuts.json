@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "note": "공식 문서에서 직접 확인한 단축키만 shortcuts 배열에 넣습니다. status 가 '확인됨'이면 sourceUrl(https), verifiedVersion, checkedAt(YYYY-MM-DD)이 필수입니다.",
+  "programs": [
+    { "slug": "vscode", "name": "VS Code", "vendor": "Microsoft", "kind": "코드 에디터", "docsUrl": "", "verifiedVersion": "", "checkedAt": "", "status": "미확인" },
+    { "slug": "figma", "name": "Figma", "vendor": "Figma", "kind": "UI 디자인", "docsUrl": "", "verifiedVersion": "", "checkedAt": "", "status": "미확인" },
+    { "slug": "photoshop", "name": "Photoshop", "vendor": "Adobe", "kind": "이미지 편집", "docsUrl": "", "verifiedVersion": "", "checkedAt": "", "status": "미확인" },
+    { "slug": "excel", "name": "Excel", "vendor": "Microsoft", "kind": "스프레드시트", "docsUrl": "", "verifiedVersion": "", "checkedAt": "", "status": "미확인" },
+    { "slug": "chrome", "name": "Chrome", "vendor": "Google", "kind": "웹 브라우저", "docsUrl": "", "verifiedVersion": "", "checkedAt": "", "status": "미확인" }
+  ],
+  "shortcuts": []
+}
