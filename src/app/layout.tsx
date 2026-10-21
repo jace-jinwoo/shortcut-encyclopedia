@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   alternates: { canonical: '/' },
   openGraph: { type: 'website', locale: 'ko_KR', siteName: SITE_NAME, title: SITE_NAME, description: SITE_TAGLINE, url: '/' },
   twitter: { card: 'summary', title: SITE_NAME, description: SITE_TAGLINE },
+  verification : { google : '1bHbH5-Aa-wk74CWkqUWQGRmZ6KMkvRetikjf8rLAnQ' },
+  other : { 'google-adsense-account' : 'ca-pub-4185652173034768' }
 };
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#2563eb' };
