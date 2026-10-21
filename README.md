@@ -28,4 +28,6 @@ npm run verify      # 정적 경로·링크·메타·데이터 검증
 Netlify: build `npm run build`, publish `out`(netlify.toml 포함). GitHub 저장소 연결 후 배포. 환경변수는 `.env.example` 참고(`NEXT_PUBLIC_SITE_URL`, `NEXT_PUBLIC_CONTACT_EMAIL`, AdSense는 승인 전 `false` 유지; 비활성 시 광고 코드는 렌더링되지 않음).
 
 ## 데이터 현황
-(작성 예정)
+2026-10-21 기준: 5개 프로그램 모두 **미확인**(검증된 단축키 0개). 공식 문서 WebFetch 시도(VS Code 문서 1회)가 권한 문제로 차단되어 이후 시도를 중단했고, 기억에 의존한 단축키는 넣지 않았습니다. 각 프로그램 페이지는 "아직 검증된 단축키가 없습니다"를 표시합니다. 구조·UI·테스트는 완성되어 있어 `shortcuts.json`에 확인된 항목만 추가하면 바로 반영됩니다.
+
+미실행 검증: npm 레지스트리 차단으로 `npm install`/`test`/`typecheck`/`build`/`verify`를 실행하지 못했습니다(코드 정독으로만 점검).
